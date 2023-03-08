@@ -39,7 +39,7 @@ class ServerConidaeFaceActivity : AppCompatActivity(),InductionKonidae.StateList
     }
     private fun serverDrive(sendCommand:Int){
         val queue=Volley.newRequestQueue(this)
-        var url="https://script.google.com/macros/s/AKfycbysbL-F44yfNugcDVajCX3-U7vdrFqe_GL8U8z0p1FmP9Z1P0Gg_PQJuKOuN92KSAFd/exec?"
+        var url="https://script.google.com/macros/s/AKfycbyO-hw_kF300MQ70XFh5NYIv_wwcUxpDqgtIegpEXVd3D3eZ0jcpacRCrWMxwmsKoZ6/exec?"
         url += when (sendCommand) {
             REGISTER_AND_REQUEST_GOAL -> {
                 "comm=2"

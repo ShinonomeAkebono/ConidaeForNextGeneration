@@ -131,7 +131,7 @@ class CommanderMapActivity : AppCompatActivity(), OnMapReadyCallback ,SendGoalDi
     }
     private fun communicateServer(sendCommand:Int){//サーバー通信をする関数。渡されたコマンドによって動作内容を変える。
         val queue= Volley.newRequestQueue(this)
-        var url="https://script.google.com/macros/s/AKfycbysbL-F44yfNugcDVajCX3-U7vdrFqe_GL8U8z0p1FmP9Z1P0Gg_PQJuKOuN92KSAFd/exec?"
+        var url="https://script.google.com/macros/s/AKfycbyO-hw_kF300MQ70XFh5NYIv_wwcUxpDqgtIegpEXVd3D3eZ0jcpacRCrWMxwmsKoZ6/exec?"
         url += when (sendCommand) {
             UPDATE_MAP -> {//マップ更新
                 "comm=$UPDATE_MAP"+"&name=${intent.getStringExtra("USERNAME")}&${makeExtraQuery(UPDATE_MAP)}"
