@@ -64,4 +64,7 @@
 #### 機能
 機能としてはConidae_ESP32に溶断用のプログラムを追加したもので、電源が接続されてから、最初に  
 **"52120"**  
-というデータが送られると溶断を開始し、その後はConidae_ESP32と全く同じ動作をします。
+というデータが送られると溶断を開始し、その後はConidae_ESP32と全く同じ動作をします。  
+## サーバー・データベースのURL
+[サーバー](https://script.google.com/home/projects/1We2c4jP4Iuq_zUWL10qneabqK7s8tf-syiG52pJengZP5HRgQgEly4N_/edit)  
+[データベース](https://docs.google.com/spreadsheets/d/1S9cln5S1FHNmxY2MARpbRo55B0uS7WgbZ1usYiUxpLU/edit#gid=0)
